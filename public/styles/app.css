@@ -1,0 +1,59 @@
+body {
+	background: url('https://res.cloudinary.com/superkloklabs/image/upload/v1610121096/JetWheelReelPointCa/jetwheelreelBG_maul3m.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #DDA0DD;
+	text-shadow: -1px 1px 0 #000,
+				1px 1px 0 #000,
+				1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+i {
+	color: rgba(0,255,255,0.5);
+	font-size: 2.4rem;
+	text-shadow: none;
+}
+
+.img-fluid {
+	border-radius: 25px;
+}
+
+.procedure h2	{
+	color: #00FA9A;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2.5rem;
+}
+
+.procedure p {
+	color: #F8F8FF;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.25;
+}
+
+#pageheading i {
+	color: rgba(0, 255, 255, 0.3);
+}
+
+#pageheading h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 4rem;
+	text-shadow: none;
+}
+
+#footer {
+	font-family: 'Acme', sans-serif;
+	color: #F8F8FF;
+}
+
+#copyright {
+	font-size: 1.3rem;
+}
+
+@media (max-width: 1200px) {
+	#pageheading h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+}

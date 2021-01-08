@@ -1,0 +1,103 @@
+a:hover {
+	text-decoration: none;
+}
+
+button:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.menu {
+	line-height: 1;
+}
+
+.menuBG {
+	background: rgba(219, 112, 147, 0.8);
+	border-radius: 25px;
+}
+
+.navbar.scrolled {
+	background: rgba(219, 112, 147, 0.8);
+	transition: background 455ms;
+}
+
+.mdText {
+	font-family: 'Righteous', cursive;
+	font-size: 1.7rem;
+}
+
+.lgText {
+	font-size: 2rem;
+}
+
+.tmLgText {
+	font-family: 'Lacquer', cursive;
+	font-size: 2.5rem;
+}
+
+.tmSmText {
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.tmComText {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 2rem;
+}
+
+.scText {
+	font-family: 'Lobster', cursive;
+	font-size: 1.85rem;
+}
+
+.ccText {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 2.1rem;
+}
+
+.spText {
+	font-family: 'Metal Mania', cursive;
+	font-size: 2rem;
+}
+
+.slText {
+	font-family: 'VT323', monospace;
+	font-size: 2.6rem;
+}
+
+.dropdown-menu {
+	line-height: 1.25;
+}
+
+#scDropdown {
+	line-height: 1.45;
+}
+
+#ccDropdown {
+	line-height: 1.75;
+}
+
+#slDropdown {
+	line-height: 0.75;
+}
+
+#spDropdown {
+	line-height: 2.15;
+}
+
+#tmLogo {
+	font-family: 'Lacquer', cursive;
+	font-size: 2.5rem;
+}
+
+#jwrNav .navbar-brand {
+	color: #00FA9A;
+	font-size: 2rem;
+	text-shadow: -1px 1px 0 #DB7093,
+				1px 1px 0 #DB7093,
+				1px -1px 0 #DB7093,
+				-1px -1px 0 #DB7093;
+}
