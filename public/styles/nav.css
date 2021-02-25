@@ -16,12 +16,12 @@ button:focus {
 }
 
 .menuBG {
-	background: rgba(219, 112, 147, 0.8);
+	background: rgba(151, 85, 112, 0.8);
 	border-radius: 25px;
 }
 
 .navbar.scrolled {
-	background: rgba(219, 112, 147, 0.8);
+	background: rgba(151, 85, 112, 0.8);
 	transition: background 455ms;
 }
 
@@ -45,7 +45,7 @@ button:focus {
 
 .tmComText {
 	font-family: 'Caveat Brush', cursive;
-	font-size: 2rem;
+	font-size: 1.6rem;
 }
 
 .scText {
@@ -96,8 +96,8 @@ button:focus {
 #jwrNav .navbar-brand {
 	color: #00FA9A;
 	font-size: 2rem;
-	text-shadow: -1px 1px 0 #DB7093,
-				1px 1px 0 #DB7093,
-				1px -1px 0 #DB7093,
-				-1px -1px 0 #DB7093;
+	text-shadow: -1px 1px 0 #975570,
+				1px 1px 0 #975570,
+				1px -1px 0 #975570,
+				-1px -1px 0 #975570;
 }

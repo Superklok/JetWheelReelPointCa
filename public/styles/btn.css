@@ -7,10 +7,10 @@
 
 .jwrGlow:hover {
 	color: #00FA9A !important;
-	text-shadow: -1px 1px 0 #DB7093,
-				1px 1px 0 #DB7093,
-				1px -1px 0 #DB7093,
-				-1px -1px 0 #DB7093 !important;
+	text-shadow: -1px 1px 0 #975570,
+				1px 1px 0 #975570,
+				1px -1px 0 #975570,
+				-1px -1px 0 #975570 !important;
 }
 
 #customMenu {
