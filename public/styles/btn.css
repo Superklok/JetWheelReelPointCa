@@ -28,3 +28,8 @@
 #customMenu:hover {
 	border: none !important;
 }
+
+.socialBtn {
+	text-decoration: none;
+	padding: 7px;
+}

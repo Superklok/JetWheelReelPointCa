@@ -45,6 +45,17 @@ i {
 #footer {
 	font-family: 'Acme', sans-serif;
 	color: #F8F8FF;
+	transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+}
+
+#footer:hover {
+	color: #00FA9A;
+	text-shadow: -1px 1px 0 #975570,
+				1px 1px 0 #975570,
+				1px -1px 0 #975570,
+				-1px -1px 0 #975570;
 }
 
 #copyright {
