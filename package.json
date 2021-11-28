@@ -1,6 +1,6 @@
 {
   "name": "jetwheelreelpointca",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "Jet Wheel Reel (Français)",
   "main": "app.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "http://jetwheelreel.ca",
   "dependencies": {
-    "ejs": "^3.1.5",
+    "ejs": "^3.1.6",
     "ejs-mate": "^3.0.0",
     "express": "^4.17.1"
   },
