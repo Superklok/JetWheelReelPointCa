@@ -1,4 +1,4 @@
-# Jet Wheel Reel (Version française) v1.5.5
+# Jet Wheel Reel (Version française) v1.5.6
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
