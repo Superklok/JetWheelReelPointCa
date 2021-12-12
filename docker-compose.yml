@@ -1,8 +1,8 @@
-version: "2.4"
+version: "3.8"
 
 services:
   app:
-    image: jetwheelreelpointca:1.5.7
+    image: superklok/jetwheelreelpointca:1.5.9
     build: 
       context: .
     ports:
@@ -11,4 +11,4 @@ services:
     volumes:
       - .:/app
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=production
