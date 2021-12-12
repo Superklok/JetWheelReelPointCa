@@ -1,9 +1,9 @@
-FROM node:17.2.0 as base
+FROM node:17.2.0-alpine3.14 as base
 LABEL org.opencontainers.image.vendor="Superklok Labs"
 LABEL org.opencontainers.image.authors="trev@superklok.ca"
 LABEL org.opencontainers.image.title="JetWheelReelPointCa"
 LABEL org.opencontainers.image.description="Jet Wheel Reel (Français)"
-LABEL org.opencontainers.image.version="1.5.9"
+LABEL org.opencontainers.image.version="1.5.11"
 LABEL org.opencontainers.image.created="2021-12-12"
 LABEL org.opencontainers.image.url="https://hub.docker.com/r/superklok/jetwheelreelpointca"
 LABEL org.opencontainers.image.source="https://github.com/Superklok/JetWheelReelPointCa"
@@ -15,7 +15,7 @@ ENV PORT 80
 COPY package*.json ./
 RUN npm i
 COPY . .
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
 
 FROM base as dev
 ENV NODE_ENV=development
