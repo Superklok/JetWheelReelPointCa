@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: dark) {
+	.jwrGlow {
+		color: rgba(0, 255, 255, 0.9) !important;
+		transition: all 0.7s;
+		-webkit-transition: all 0.7s;
+		-moz-transition: all 0.7s;
+	}
+
+	.jwrGlow:hover {
+		color: #00FA9A !important;
+		text-shadow: -1px 1px 0 #975570,
+					1px 1px 0 #975570,
+					1px -1px 0 #975570,
+					-1px -1px 0 #975570 !important;
+	}
+
+	#customMenu {
+		font-family: 'Bangers', cursive;
+		font-size: 2rem;
+		margin: 0;
+		padding: 0;
+		border: none !important;
+		text-shadow: -1px 1px 0 #000,
+					1px 1px 0 #000,
+					1px -1px 0 #000,
+					-1px -1px 0 #000;
+	}
+
+	#customMenu:hover {
+		border: none !important;
+	}
+
+	.socialBtn {
+		text-decoration: none;
+		padding: 7px;
+	}
+}
