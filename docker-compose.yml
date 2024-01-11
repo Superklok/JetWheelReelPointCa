@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: superklok/jetwheelreelpointca:1.5.19
+    image: superklok/jetwheelreelpointca:1.5.23
     build: 
       context: .
       target: prod
